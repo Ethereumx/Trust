@@ -8,16 +8,16 @@ Various inputs are used by social trust algorithms to measure the trustworthines
 trustworthiness of the agent.
 
 
-<img src="/pictures/84.PNG" width="500px">
+<img src="/pictures/84.png" width="500px">
 
 https://eudl.eu/pdf/10.4108/icst.collaboratecom.2011.247125
 
 
 ## Trust model types
-<img src="/pictures/77.PNG" width="500px">
+<img src="/pictures/77.png" width="500px">
 
 https://www.oasis-open.org/committees/download.php/28303/JIB2007-DSS-Survey.pdf
-<img src="/pictures/79.PNG" width="500px">
+<img src="/pictures/79.png" width="500px">
 In most cases, the calculation of trust
 was based on the similarity of users in selecting items or their neighbors. The use of this type of trust may not be
 significantly accurate in making recommendations since only behavioral similarity, or neighborship cannot be a
@@ -38,11 +38,11 @@ Furthermore, if a pre-trusted peer downloads an inauthentic file from a maliciou
 *local trust in EigenTrust* *𝑠𝑖𝑗=𝑠𝑎𝑡(𝑖,𝑗)−𝑢𝑛𝑠𝑎𝑡(𝑖,𝑗)* is  defined  as  local  trust  value between  two  peers  i  and  j,  where  sat(i,j)  is  the  number  of  satisfactory  transactions  and *unsat(i,j)*  is  the  number  of  unsatisfactory  transactions  between  peers  i  and  j
 Then we normlize the values == a node devide the 
 These  local trust  values  have  unlimted  domain,  and  they  can  also  be  negative.  Eigen  Trust  demands them  to  be  normalized  to  values  between  0  and  1.  Normalized  values  of  trust  between nodes i and j aregiven by this equation
- ![](/pictures/25.PNG)(max s,0 as can be -)
+ ![](/pictures/25.png)(max s,0 as can be -)
 Where *𝑠𝑖𝑗* is the local trust value and 𝑐𝑖𝑗 is thenormalized local trust value between nodes iandj.  We  can  see  from  the  expression  that  all  trust  values  are  from interval  [0,1]
 Note that we cannot use sij as the local trust score without normalizing, because malicious agents can arbitrarily assign high local trust values to fellow malicious agents and
 low local trust values to honest agents.
-![](/pictures/30.PNG)
+![](/pictures/30.png)
  <br>
 ![](/pictures/24.PNG)
 ![](/pictures/82.PNG)
@@ -59,7 +59,7 @@ In developing HonestPeer, the **five design objectives of reputation systems ide
 - In (Zhou and Hwang, 2007), the **PowerTrust** reputation system developed dynamically selects a small number of nodes that are most reputable, using a distributed ranking mechanism. These nodes are called Power Nodes and play an important role in calculating the global and local reputation values of other peers. By using a look-ahead random walk strategy and leveraging the power nodes, PowerTrust is known for its ability to improve the global reputation accuracy and the trust values aggregation speed. On the other hand, it takes time until power nodes are selected and identified
 
 ## SecTrust paper
-![](/pictures/87.PNG)
+![](/pictures/87.png)
 
 ## Policy based vs. Reputation based Trust Management 
 The term trust management, introduced in [5] as “a unified approach to specifying and interpreting security policies, credentials, and relationships which allow direct authorization of security-critical actions”, has been given later a broader definition, not limited to authorizations [12]: “Trust management is the activity of collecting, encoding, analyzing and presenting evidence relating to competence, honesty, security or dependability with the purpose of making assessments and decisions regarding trust relationships”. Two main approaches are currently available for managing trust: policy-based and reputation-based trust management.
@@ -104,7 +104,7 @@ remain undetected while causing damage.
 “legally” create more than a single ID. If one ID gets low reputation by
 performing bad behaviors, it switches to a new ID and starts over
 ### tools
-<img src="/pictures/83.PNG"> https://www.hindawi.com/journals/wcmc/2018/1073216/tab1/
+<img src="/pictures/83.png"> https://www.hindawi.com/journals/wcmc/2018/1073216/tab1/
 # Overview of reputation systems
 List of available reputation systems and aggregation algorithms
 
